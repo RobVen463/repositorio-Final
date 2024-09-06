@@ -1,0 +1,13 @@
+spring:
+ application:
+  name: nexus
+ 
+ datasource:
+  url: jdbc:mysql://localhost:3306/NS
+  username: root
+  password: 
+ 
+ jpa:
+  hibernate:
+   #ddl-auto: create
+   ddl-auto: update
