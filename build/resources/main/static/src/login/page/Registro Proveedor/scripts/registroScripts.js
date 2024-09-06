@@ -23,7 +23,7 @@ registrar.addEventListener('click', () => {
     // Comenzar con la llamada de la API (fetch, asynch-await, axios)
     //const url = `http://localhost:8081/api/v1`;
 
-    fetch('http://34.239.125.47/api/v1', {
+    fetch('http://34.239.125.47:8080/api/v1', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

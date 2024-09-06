@@ -125,7 +125,7 @@ registroFormulario.addEventListener('submit', (event) => {
             idrol: idRoll
         };
 
-        fetch('http://34.239.125.47/api/v1', {
+        fetch('http://34.239.125.47:8080/api/v1', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

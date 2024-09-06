@@ -52,7 +52,7 @@ passwordInput.addEventListener('input', (event) => {
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-    const url = `http://34.239.125.47/api/v1/usercorreo/email?nexusmail=${emailInput.value}`;
+    const url = `http://34.239.125.47:8080/api/v1/usercorreo/email?nexusmail=${emailInput.value}`;
     fetch(url)
         .then(response => response.json())
         .then(data => {
